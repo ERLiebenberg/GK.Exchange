@@ -1,0 +1,9 @@
+/* 
+  GlobalStrings.strings
+  GK Exchange
+
+  Created by Errol Liebenberg on 2018/08/28.
+  Copyright © 2018 Errol Liebenberg. All rights reserved.
+*/
+
+"search.questions.searchbar.placeholder" = "Search";
