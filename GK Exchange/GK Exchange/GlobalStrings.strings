@@ -6,4 +6,17 @@
   Copyright © 2018 Errol Liebenberg. All rights reserved.
 */
 
+"search.questions.bacground.title" = "Stack Overflow Search";
 "search.questions.searchbar.placeholder" = "Search";
+
+"search.questions.vote.title" = "Vote";
+"search.questions.votes.title" = "Votes";
+
+"search.questions.answer.title" = "Answer";
+"search.questions.answers.title" = "Answers";
+
+"search.questions.view.title" = "View";
+"search.questions.views.title" = "Views";
+
+"search.questions.ownerPrefix.title" = "asked by:";
+"search.questions.dateAsked.title" = "asked";
