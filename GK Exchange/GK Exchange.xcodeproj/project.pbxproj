@@ -7,13 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3706FB6B213A9D3D0025907C /* QuestionsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3706FB6A213A9D3D0025907C /* QuestionsService.swift */; };
+		3706FB6D213AF3020025907C /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3706FB6C213AF3020025907C /* QuestionViewModel.swift */; };
+		3706FB6F213AF3190025907C /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3706FB6E213AF3190025907C /* QuestionView.swift */; };
 		373C2A692136EB430087A234 /* ColorKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373C2A682136EB430087A234 /* ColorKit.swift */; };
+		373C2A6C2136F0860087A234 /* SearchQuestionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373C2A6B2136F0860087A234 /* SearchQuestionsViewModel.swift */; };
+		373C2A6F2136F0A50087A234 /* SearchQuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373C2A6E2136F0A50087A234 /* SearchQuestionsView.swift */; };
+		373C2A722136F1510087A234 /* SearchRepositoryImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373C2A712136F1510087A234 /* SearchRepositoryImplementation.swift */; };
+		373C2A7B2136F4C40087A234 /* SearchQuestionsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373C2A7A2136F4C40087A234 /* SearchQuestionsViewModelTests.swift */; };
+		373C2A7D2136FC750087A234 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373C2A7C2136FC750087A234 /* QuestionViewController.swift */; };
+		373C2A7F213723070087A234 /* QuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373C2A7E213723070087A234 /* QuestionCell.swift */; };
+		373C2A82213729250087A234 /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373C2A81213729250087A234 /* QuestionModel.swift */; };
 		377D23372135C7CA002D05D8 /* GlobalStrings.strings in Resources */ = {isa = PBXBuildFile; fileRef = 377D23362135C7CA002D05D8 /* GlobalStrings.strings */; };
 		3788FCDB2135C4CB00C983A3 /* SearchQuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3788FCDA2135C4CB00C983A3 /* SearchQuestionsViewController.swift */; };
 		37A78A91213470D900E1C8D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A78A90213470D900E1C8D6 /* AppDelegate.swift */; };
 		37A78A96213470D900E1C8D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A78A94213470D900E1C8D6 /* Main.storyboard */; };
 		37A78A98213470DA00E1C8D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A78A97213470DA00E1C8D6 /* Assets.xcassets */; };
 		37A78A9B213470DA00E1C8D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A78A99213470DA00E1C8D6 /* LaunchScreen.storyboard */; };
+		37D2507E213BFD3100E19EF4 /* SearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2507D213BFD3100E19EF4 /* SearchRepository.swift */; };
+		37D25080213C007600E19EF4 /* QuestionRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2507F213C007600E19EF4 /* QuestionRequestModel.swift */; };
+		37D25083213D037B00E19EF4 /* DateFormatterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D25082213D037B00E19EF4 /* DateFormatterExtension.swift */; };
+		37D25085213D1B0E00E19EF4 /* QuestionsServiceImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D25084213D1B0E00E19EF4 /* QuestionsServiceImplementation.swift */; };
+		37D25088213D2B0600E19EF4 /* MockSearchQuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D25087213D2B0600E19EF4 /* MockSearchQuestionsView.swift */; };
+		37D2508A213D2BE400E19EF4 /* MockSearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D25089213D2BE400E19EF4 /* MockSearchRepository.swift */; };
+		37D2508D213D37CF00E19EF4 /* TestDataGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2508C213D37CF00E19EF4 /* TestDataGenerator.swift */; };
+		37D25093213D425200E19EF4 /* MockQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D25092213D425200E19EF4 /* MockQuestionView.swift */; };
+		37D25098213D4A9500E19EF4 /* QuestionViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D25097213D4A9500E19EF4 /* QuestionViewModelTests.swift */; };
+		37D2509A213D699500E19EF4 /* MockQuestionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D25099213D699500E19EF4 /* MockQuestionService.swift */; };
+		37D2509C213D6C8100E19EF4 /* SearchRepositoryImplementationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2509B213D6C8100E19EF4 /* SearchRepositoryImplementationTests.swift */; };
+		37D250A0213DC18800E19EF4 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D2509F213DC18800E19EF4 /* ServiceError.swift */; };
+		37D250A2213DC7F700E19EF4 /* ServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D250A1213DC7F700E19EF4 /* ServiceFactory.swift */; };
+		37D250A4213DC83D00E19EF4 /* MockServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D250A3213DC83D00E19EF4 /* MockServiceFactory.swift */; };
+		37D250A6213DC8EE00E19EF4 /* QuestionServiceImplementationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D250A5213DC8EE00E19EF4 /* QuestionServiceImplementationTests.swift */; };
+		37D250A8213DD8CC00E19EF4 /* AsynchronousRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D250A7213DD8CC00E19EF4 /* AsynchronousRunner.swift */; };
+		37D250AA213DDB1700E19EF4 /* MockAsynchronousRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D250A9213DDB1700E19EF4 /* MockAsynchronousRunner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +54,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3706FB6A213A9D3D0025907C /* QuestionsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsService.swift; sourceTree = "<group>"; };
+		3706FB6C213AF3020025907C /* QuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModel.swift; sourceTree = "<group>"; };
+		3706FB6E213AF3190025907C /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		373C2A682136EB430087A234 /* ColorKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorKit.swift; sourceTree = "<group>"; };
+		373C2A6B2136F0860087A234 /* SearchQuestionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchQuestionsViewModel.swift; sourceTree = "<group>"; };
+		373C2A6E2136F0A50087A234 /* SearchQuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchQuestionsView.swift; sourceTree = "<group>"; };
+		373C2A712136F1510087A234 /* SearchRepositoryImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoryImplementation.swift; sourceTree = "<group>"; };
+		373C2A792136F4C30087A234 /* GK ExchangeTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GK ExchangeTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		373C2A7A2136F4C40087A234 /* SearchQuestionsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchQuestionsViewModelTests.swift; sourceTree = "<group>"; };
+		373C2A7C2136FC750087A234 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		373C2A7E213723070087A234 /* QuestionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCell.swift; sourceTree = "<group>"; };
+		373C2A81213729250087A234 /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
 		377D23362135C7CA002D05D8 /* GlobalStrings.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = GlobalStrings.strings; sourceTree = "<group>"; };
 		3788FCDA2135C4CB00C983A3 /* SearchQuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchQuestionsViewController.swift; sourceTree = "<group>"; };
 		37A78A8D213470D800E1C8D6 /* GK Exchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GK Exchange.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +76,23 @@
 		37A78A9C213470DA00E1C8D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37A78AA1213470DA00E1C8D6 /* GK ExchangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GK ExchangeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A78AA7213470DA00E1C8D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37D2507D213BFD3100E19EF4 /* SearchRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepository.swift; sourceTree = "<group>"; };
+		37D2507F213C007600E19EF4 /* QuestionRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionRequestModel.swift; sourceTree = "<group>"; };
+		37D25082213D037B00E19EF4 /* DateFormatterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterExtension.swift; sourceTree = "<group>"; };
+		37D25084213D1B0E00E19EF4 /* QuestionsServiceImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsServiceImplementation.swift; sourceTree = "<group>"; };
+		37D25087213D2B0600E19EF4 /* MockSearchQuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSearchQuestionsView.swift; sourceTree = "<group>"; };
+		37D25089213D2BE400E19EF4 /* MockSearchRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSearchRepository.swift; sourceTree = "<group>"; };
+		37D2508C213D37CF00E19EF4 /* TestDataGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDataGenerator.swift; sourceTree = "<group>"; };
+		37D25092213D425200E19EF4 /* MockQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockQuestionView.swift; sourceTree = "<group>"; };
+		37D25097213D4A9500E19EF4 /* QuestionViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModelTests.swift; sourceTree = "<group>"; };
+		37D25099213D699500E19EF4 /* MockQuestionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockQuestionService.swift; sourceTree = "<group>"; };
+		37D2509B213D6C8100E19EF4 /* SearchRepositoryImplementationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoryImplementationTests.swift; sourceTree = "<group>"; };
+		37D2509F213DC18800E19EF4 /* ServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
+		37D250A1213DC7F700E19EF4 /* ServiceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceFactory.swift; sourceTree = "<group>"; };
+		37D250A3213DC83D00E19EF4 /* MockServiceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockServiceFactory.swift; sourceTree = "<group>"; };
+		37D250A5213DC8EE00E19EF4 /* QuestionServiceImplementationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionServiceImplementationTests.swift; sourceTree = "<group>"; };
+		37D250A7213DD8CC00E19EF4 /* AsynchronousRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsynchronousRunner.swift; sourceTree = "<group>"; };
+		37D250A9213DDB1700E19EF4 /* MockAsynchronousRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAsynchronousRunner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +113,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3706FB69213A9D2E0025907C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				3706FB6A213A9D3D0025907C /* QuestionsService.swift */,
+				37D25084213D1B0E00E19EF4 /* QuestionsServiceImplementation.swift */,
+				37D2509F213DC18800E19EF4 /* ServiceError.swift */,
+				37D250A1213DC7F700E19EF4 /* ServiceFactory.swift */,
+				37D250A7213DD8CC00E19EF4 /* AsynchronousRunner.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		373C2A6A2136F0620087A234 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				373C2A6B2136F0860087A234 /* SearchQuestionsViewModel.swift */,
+				3706FB6C213AF3020025907C /* QuestionViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		373C2A6D2136F0960087A234 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				373C2A6E2136F0A50087A234 /* SearchQuestionsView.swift */,
+				373C2A7E213723070087A234 /* QuestionCell.swift */,
+				3706FB6E213AF3190025907C /* QuestionView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		373C2A702136F12D0087A234 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				373C2A712136F1510087A234 /* SearchRepositoryImplementation.swift */,
+				37D2507D213BFD3100E19EF4 /* SearchRepository.swift */,
+			);
+			name = Repository;
+			sourceTree = "<group>";
+		};
+		373C2A802137290F0087A234 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				373C2A81213729250087A234 /* QuestionModel.swift */,
+				37D2507F213C007600E19EF4 /* QuestionRequestModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		3788FCD92135C4AB00C983A3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				3788FCDA2135C4CB00C983A3 /* SearchQuestionsViewController.swift */,
+				373C2A7C2136FC750087A234 /* QuestionViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -87,6 +192,12 @@
 		37A78A8F213470D800E1C8D6 /* GK Exchange */ = {
 			isa = PBXGroup;
 			children = (
+				37D25081213D033400E19EF4 /* Extensions */,
+				3706FB69213A9D2E0025907C /* Service */,
+				373C2A802137290F0087A234 /* Model */,
+				373C2A702136F12D0087A234 /* Repository */,
+				373C2A6D2136F0960087A234 /* View */,
+				373C2A6A2136F0620087A234 /* ViewModel */,
 				3788FCD92135C4AB00C983A3 /* Controller */,
 				37A78AB22134718D00E1C8D6 /* Resources */,
 				37A78AB12134717000E1C8D6 /* Storyboards */,
@@ -99,6 +210,10 @@
 			isa = PBXGroup;
 			children = (
 				37A78AA7213470DA00E1C8D6 /* Info.plist */,
+				373C2A792136F4C30087A234 /* GK ExchangeTests-Bridging-Header.h */,
+				37D2508E213D41AE00E19EF4 /* Tests */,
+				37D2508B213D37B500E19EF4 /* TestDataGenerators */,
+				37D25086213D2AEA00E19EF4 /* Mocks */,
 			);
 			path = "GK ExchangeTests";
 			sourceTree = "<group>";
@@ -129,6 +244,46 @@
 				373C2A682136EB430087A234 /* ColorKit.swift */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		37D25081213D033400E19EF4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				37D25082213D037B00E19EF4 /* DateFormatterExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		37D25086213D2AEA00E19EF4 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				37D25087213D2B0600E19EF4 /* MockSearchQuestionsView.swift */,
+				37D25089213D2BE400E19EF4 /* MockSearchRepository.swift */,
+				37D25092213D425200E19EF4 /* MockQuestionView.swift */,
+				37D25099213D699500E19EF4 /* MockQuestionService.swift */,
+				37D250A3213DC83D00E19EF4 /* MockServiceFactory.swift */,
+				37D250A9213DDB1700E19EF4 /* MockAsynchronousRunner.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		37D2508B213D37B500E19EF4 /* TestDataGenerators */ = {
+			isa = PBXGroup;
+			children = (
+				37D2508C213D37CF00E19EF4 /* TestDataGenerator.swift */,
+			);
+			path = TestDataGenerators;
+			sourceTree = "<group>";
+		};
+		37D2508E213D41AE00E19EF4 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				373C2A7A2136F4C40087A234 /* SearchQuestionsViewModelTests.swift */,
+				37D25097213D4A9500E19EF4 /* QuestionViewModelTests.swift */,
+				37D2509B213D6C8100E19EF4 /* SearchRepositoryImplementationTests.swift */,
+				37D250A5213DC8EE00E19EF4 /* QuestionServiceImplementationTests.swift */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +339,7 @@
 					};
 					37A78AA0213470DA00E1C8D6 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 						TestTargetID = 37A78A8C213470D800E1C8D6;
 					};
 				};
@@ -234,8 +390,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				3788FCDB2135C4CB00C983A3 /* SearchQuestionsViewController.swift in Sources */,
+				37D25085213D1B0E00E19EF4 /* QuestionsServiceImplementation.swift in Sources */,
+				3706FB6B213A9D3D0025907C /* QuestionsService.swift in Sources */,
+				37D25083213D037B00E19EF4 /* DateFormatterExtension.swift in Sources */,
+				373C2A722136F1510087A234 /* SearchRepositoryImplementation.swift in Sources */,
+				373C2A7D2136FC750087A234 /* QuestionViewController.swift in Sources */,
+				3706FB6F213AF3190025907C /* QuestionView.swift in Sources */,
 				373C2A692136EB430087A234 /* ColorKit.swift in Sources */,
+				37D250A2213DC7F700E19EF4 /* ServiceFactory.swift in Sources */,
+				37D250A0213DC18800E19EF4 /* ServiceError.swift in Sources */,
+				37D2507E213BFD3100E19EF4 /* SearchRepository.swift in Sources */,
+				37D250A8213DD8CC00E19EF4 /* AsynchronousRunner.swift in Sources */,
+				37D25080213C007600E19EF4 /* QuestionRequestModel.swift in Sources */,
+				373C2A6F2136F0A50087A234 /* SearchQuestionsView.swift in Sources */,
+				373C2A7F213723070087A234 /* QuestionCell.swift in Sources */,
+				373C2A82213729250087A234 /* QuestionModel.swift in Sources */,
+				373C2A6C2136F0860087A234 /* SearchQuestionsViewModel.swift in Sources */,
 				37A78A91213470D900E1C8D6 /* AppDelegate.swift in Sources */,
+				3706FB6D213AF3020025907C /* QuestionViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +415,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37D250AA213DDB1700E19EF4 /* MockAsynchronousRunner.swift in Sources */,
+				37D25098213D4A9500E19EF4 /* QuestionViewModelTests.swift in Sources */,
+				37D25093213D425200E19EF4 /* MockQuestionView.swift in Sources */,
+				37D25088213D2B0600E19EF4 /* MockSearchQuestionsView.swift in Sources */,
+				37D250A6213DC8EE00E19EF4 /* QuestionServiceImplementationTests.swift in Sources */,
+				37D2509C213D6C8100E19EF4 /* SearchRepositoryImplementationTests.swift in Sources */,
+				37D2509A213D699500E19EF4 /* MockQuestionService.swift in Sources */,
+				373C2A7B2136F4C40087A234 /* SearchQuestionsViewModelTests.swift in Sources */,
+				37D2508A213D2BE400E19EF4 /* MockSearchRepository.swift in Sources */,
+				37D250A4213DC83D00E19EF4 /* MockServiceFactory.swift in Sources */,
+				37D2508D213D37CF00E19EF4 /* TestDataGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +614,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q984GJD2FZ;
 				INFOPLIST_FILE = "GK ExchangeTests/Info.plist";
@@ -441,6 +625,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Global.GK-ExchangeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GK ExchangeTests/GK ExchangeTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GK Exchange.app/GK Exchange";
@@ -452,6 +638,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q984GJD2FZ;
 				INFOPLIST_FILE = "GK ExchangeTests/Info.plist";
@@ -462,6 +649,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Global.GK-ExchangeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GK ExchangeTests/GK ExchangeTests-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GK Exchange.app/GK Exchange";
