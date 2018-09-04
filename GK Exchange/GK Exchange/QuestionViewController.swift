@@ -28,12 +28,20 @@ class QuestionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        configureNavigationBar()
+        
+        navigationItem.title = NSLocalizedString("question.title", tableName: "GlobalStrings", bundle: Bundle.main, comment: "")
+        
+        viewModel.configureView()
+    }
+    
+    private func configureNavigationBar() {
         navigationController?.navigationBar.isHidden = false
         navigationController?.navigationBar.barTintColor = ColorKit.primaryColor
         navigationController?.navigationBar.isTranslucent = false
-        UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedStringKey.foregroundColor : UIColor.white], for: .normal)
-        
-        viewModel.configureView()
+        navigationController?.navigationBar.barStyle = .black
+        navigationController?.navigationBar.tintColor = .white
+        navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
     }
 }
 

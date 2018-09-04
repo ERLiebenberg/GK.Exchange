@@ -20,3 +20,5 @@
 
 "search.questions.ownerPrefix.title" = "asked by:";
 "search.questions.dateAsked.title" = "asked";
+
+"question.title" = "Question";
