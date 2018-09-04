@@ -103,7 +103,12 @@ extension SearchQuestionsViewController: SearchQuestionsView {
     }
     
     func presentErrorMessage(_ errorMessage: String?) {
-        ///TODO: implement error alert view
+        let alertController = UIAlertController(title: "Ooops!", message: errorMessage, preferredStyle: .alert)
+        let cancelAction = UIAlertAction(title: "oh no", style: .cancel, handler: nil)
+        
+        alertController.addAction(cancelAction)
+        
+        present(alertController, animated: true, completion: nil)
     }
 }
 
